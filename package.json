@@ -4,7 +4,8 @@
   "description": "A simple microservice for returning dates in both human-readable and Unix timestamp formats",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Art deHoyos",
   "license": "MIT",
@@ -12,5 +13,14 @@
     "body-parser": "^1.14.2",
     "express": "^4.13.3",
     "moment": "^2.11.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artdehoyos/timestamp-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artdehoyos/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/artdehoyos/timestamp-microservice#readme"
 }
