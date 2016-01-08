@@ -2,6 +2,8 @@ var express = require("express");
 var moment = require("moment");
 var app = express();
 
+var port = process.env.PORT || 8080;
+
 app.use(express.static("public"));
 
 app.get("/:date", function(req, res){
@@ -14,4 +16,4 @@ app.get("/:date", function(req, res){
     res.end();
 });
 
-app.listen(8080, function(){console.log("App listening on port 8080.")});
+app.listen(port, function(){console.log("App listening on port " + port +".")});
