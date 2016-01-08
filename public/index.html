@@ -1,1 +1,25 @@
-hello world!
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timestamp-Microservice</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <h1>Timestamp-Microservice</h1>
+        <h2>Use</h2>
+        <p>Pass a date, either as a Unix timestamp or a natural-language date, receive JSON with both formats. Input should be sent as part of the URL.</p>
+        <h2>Examples</h2>
+        <h3>Example Input</h3>
+        <ul>
+            <li>https://my.domain.com/January%207%202016</li>
+            <li>https://my.domain.com/1452124800</li>
+        </ul>
+        <h3>Example output</h3>
+        <ul>
+            <li>{"natural":"January 7, 2016","unix":"1452124800"}</li>
+        </ul>
+    </div>
+</body>
+</html>

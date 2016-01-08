@@ -1,0 +1,15 @@
+body{
+    background-color: #333340;
+    font-family: sans-serif;
+}
+
+#container{
+    max-width: 960px;
+    margin: 0 auto;
+    text-shadow: 1px 1px #222;
+    color: ghostwhite;
+}
+
+h1, h2, h3{
+    color: limegreen;
+}
